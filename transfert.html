@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transfert</title>
+    <link rel="stylesheet" href="location.css">
+</head>
+<body>
+    <div class="en-tete" >
+        <div>Lundi-vendredi : de 8h-17h</div>
+        <div> <img src="télé.jpg" alt="" width="30px" height="30px" >(+216)98456321-(+216)96852147 </div>
+        <div><img src="facebook.gpg" alt="" width="30px" height="30px"></div>
+    </div>
+    <div class="ul">
+        <div><img src="logo.gpg" alt="" width="70px" height="70px"></div>
+        <div>
+            <ul>
+                <li>
+                    <a  class="active" href="#Acceuil">ACCEUIL</a></li>
+                  <li> <a href="qui sommes nous.html">QUI SOMMES NOUS</a></li>
+                   <li> <a href="véhicules.html">VÉHICULES</a></li>
+                   <li><a href="transfert.html">TRANSFERT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   <li> <a href="connexion.html">CONNEXION</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <div id="div1" ><h1>TRANSFERT ET EXCURSION</h1>
+        <P>PREMIUM RENT A CAR s’oriente vers votre satisfactions totale. Notre équipe pense à vos soucis pour une vie plus confortable et un lux accessible. - Vous préparez votre départ par avion ou par bateau : Notre équipe est à votre service pour assurer votre transfert. - Vous cherchez un transfert confortable à votre destination dès votre arrivée en Tunisie : Notre équipe vous accueille à l’aéroport ou au port. - Vous souhaitez avoir un transfert tranquille entre deux points en Tunisie, nos chauffeurs et nos experts vous accompagnent.A votre arrivée à l’aéroport de Tunis Carthage ou au port de la Goulette, un chauffeur vous accueille avec une pancarte Jawda Rent A Car affichant votre nom et vous conduit directement à la destination de votre choix. Afin de garantir une meilleure qualité de service, nos prestations s’effectuent sur réservation au minimum 24 heures à l’avance. Vos transferts partout en Tunisie : de l’aéroport ou de l’endroit dont vous convenez : gares, hôtels, entreprises. L’organisation de vos déplacements pour tous les Congrès, Séminaires et autres manifestations. L’organisation d’excursions avec des guides expérimentés dans toute la Tunisie et des raids dans le sud tunisien.</P>
+    </div>
+    <div class="form" >
+    <div>
+        <h2>Réservez votre transfert</h2>
+        <form action="post">
+            <label for="text">Type de transfert</label> <br> <br>
+            <label>
+                <input type="radio" name="type de transfert" value="a">
+                aller-simple
+            </label>
+            <label>
+                <input type="radio" name="type de transfert" value="b">
+                aller-retour
+            </label>
+            <label>
+                <input type="radio" name="type de transfert" value="c" checked>
+                excurtion
+            </label><br> <br>
+            <label for="text">Nombre de passagers</label> <br> <br>
+            <select name="Nombre de passagers" id="passager">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select><br> <br>
+            <label for="text">Nombre de baggages</label><br><br>
+            <select name="Nombre de baggages" id="baggages">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </form>
+    </div>
+    <div>
+        <h2>Départ</h2>
+        <form action="post">
+            <div id="label" >
+           <div> <label for="text">Date de départ</label><br>
+            <input type="date" placeholder="jj/jj/aaa"><br><br></div>
+          <div> <label for="text">heure de depart</label><br>
+            <input type="time" min="08:00" max="17:00" required ></div>
+            </div>
+            <label for="text">Ville de départ</label><br><br>
+            <select name="ville de départ" id="ville">
+                <option value="ar">Ariana</option>
+                <option value="bz">Bizert</option>
+                <option value="tu">Tunis</option>
+            </select><br><br>
+            <label for="text">Adresse de départ</label><br><br>
+            <textarea name="adresse de départ" id="adresse" cols="30" rows="10"></textarea>
+        </form>
+    </div>
+    <input type="submit" name="nom" value="envoyer">
+    </div>
+    <footer>
+        <div><img src="logo voiture.jpg" alt="" width="100px" height="100px" ></div>
+        <div>
+            <h4>MENU</h4>
+            <UL>
+                <li class="block" ><a href="acceuil.html">ACCEUIL</a></li>
+                <li class="block" ><a href="qui sommes nous.html">QUI SOMMES NOUS</a></li>
+                <li class="block" ><a href="véhicules.html">VÉHICULES</a></li>
+                <li class="block" ><a href="transfert.html">TRANSFERT</a></li>
+                <li class="block" ><a href="contact.html">CONTACT</a></li>
+            </UL>
+        </div>
+        <div>
+            <H4>MON COMPTE</H4>
+            <UL>
+                <li class="block" ><a href="connexion.html">COMMANDES</a></li>
+                <li class="block" ><a href="connexion.html">DÉTAIL DU COMPTE</a></li>
+                <li class="block" ><a href="connexion.html">MOT DE PASSE PERDU</a></li>
+            </UL>
+        </div>
+        <div>
+            <H4>MODE DE PAYEMENT</H4>
+            <img src="carte de crédit.gpg" alt="" width="100px" height="100px" >
+        </div>
+    </footer>
+
+    
+</body>
+</html>
